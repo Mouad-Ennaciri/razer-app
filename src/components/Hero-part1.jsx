@@ -5,12 +5,12 @@ import Slider from "../Slider";
 // import headphonesGray from "../assets/images/razer-headphones-gray.png";
 import { RiArrowRightSLine, RiArrowLeftSLine } from "@remixicon/react";
 import gsap from "gsap";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 
 function HeroPart1() {
   return (
-    <div className="flex flex-col gap-y-4 items-center justify-center">
+    <div className="flex flex-col items-center justify-center gap-y-4">
       <RazerText />
       <Slider/>
     </div>
