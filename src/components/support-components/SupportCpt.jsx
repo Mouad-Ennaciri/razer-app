@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import bgSupport from '../../assets/images/razer-bg-support.webp';
 import {RiSearchLine, RiUserLine} from "@remixicon/react";
 import {
