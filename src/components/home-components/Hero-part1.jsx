@@ -1,18 +1,16 @@
-import person from "../assets/images/person-nbg.png";
-import cirled from "../assets/images/razer-controller.png";
-import ThreeDSignIn from "./ThreeDSignIn";
-import Slider from "../Slider";
+import person from "../../assets/images/person-nbg.png";
+import cirled from "../../assets/images/razer-controller.png";
+import Slider from "../../Slider.jsx";
 // import headphonesGray from "../assets/images/razer-headphones-gray.png";
 import { RiArrowRightSLine, RiArrowLeftSLine } from "@remixicon/react";
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
 
-
 function HeroPart1() {
   return (
     <div className="flex flex-col gap-y-4 items-center justify-center">
       <RazerText />
-      <Slider/>
+      <Slider />
     </div>
   );
 }
@@ -187,6 +185,5 @@ function RazerText() {
     </div>
   );
 }
-
 
 export default HeroPart1;

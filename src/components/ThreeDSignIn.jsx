@@ -56,7 +56,7 @@ export default function ThreeDSignIn({className,closed,onSetClosed}) {
 
   },[closed])
   return (
-    <div className={` transition-all duration-300 h-screen backdrop-blur-[10px] top-0 z-90 top-10% fixed flex items-center justify-center w-full ${closed?'visible opacity-[1]':'invisible opacity-0'}`}>
+    <div className={` transition-all duration-300 h-screen backdrop-blur-[10px] top-0 z-1000 top-10% fixed flex items-center justify-center w-full ${closed?'visible opacity-[1]':'invisible opacity-0'}`}>
     <button className="absolute top-[30px] right-[35px] rounded-full bg-green-500/20 text-white  p-1.5 shadow-[0px_0px_10px_white] hover:text-[gray] cursor-pointer z-1000" onClick={closeSignIn}><RiCloseLargeLine/></button>
     <div id='card' className={`flex items-center justify-center ${className}`}>
       

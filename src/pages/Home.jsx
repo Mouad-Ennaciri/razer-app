@@ -1,4 +1,4 @@
-import HeroPart1 from "../components/Hero-part1";
+import HeroPart1 from "../components/home-components/Hero-part1.jsx";
 function Home(){
   return <div className=" bg-[#1b1b1b]">
     <HeroPart1/>

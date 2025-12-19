@@ -9,11 +9,15 @@ import About from "./pages/About";
 import ThreeDSignIn from "./components/ThreeDSignIn";
 
 function App() {
-   const [closed,setClosed]=useState(false);
+  const [closed, setClosed] = useState(false);
   return (
     <div className="overflow-hidden">
-      <Navbar onSetClosed={setClosed}/>
-      <ThreeDSignIn className={`z-100`} closed={closed} onSetClosed={setClosed}/>
+      <Navbar onSetClosed={setClosed} />
+      <ThreeDSignIn
+        className={`z-100`}
+        closed={closed}
+        onSetClosed={setClosed}
+      />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
