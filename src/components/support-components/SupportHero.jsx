@@ -1,7 +1,7 @@
 import {RiSearchLine} from "@remixicon/react";
-const SupportHero = () => {
+const SupportHero = ({className}) => {
   return (
-    <div className="flex flex-col items-center min-h-screen texr-center py-14">
+    <div className={`flex flex-col items-center min-h-screen texr-center py-14 ${className}`}>
       <h1 className='text-white text-5xl font-semibold'> <span className='text-[#00ff9d]'>Support</span> Page</h1>
       <form className="mt-6 w-full max-w-2xl">
         <div className="flex items-center gap-2 rounded-full bg-white/10 backdrop-blur border border-white/20 shadow-[0_8px_30px_rgba(0,0,0,0.35)] px-4 py-2">

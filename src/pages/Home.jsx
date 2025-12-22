@@ -8,7 +8,9 @@ function Home(){
     <HeroPart1/>
     <Products/>
     <SupportLp/>
-    <SupportHero/>
+    <div className="bg-black bg-center min-h-screen bg-no-repeat bg-cover">
+          <SupportHero className={'relative top-[150px]'}/>
+    </div>
   </div>
 }
 export default Home;

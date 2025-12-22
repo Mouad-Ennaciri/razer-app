@@ -9,13 +9,17 @@ import {
 } from "@remixicon/react";
 import gsap from 'gsap/all';
 import { useGSAP } from '@gsap/react';
+import TestimonialCarousel from './Testimonial';
 function SupportCpt() {
   return (
+    <>
     <div className='w-full h-screen flex flex-col gap-y-7 justify-center items-center'>
       <BgSupport/>
       <SupportInput/>
       <SupportSupport/>
     </div>
+      <TestimonialCarousel/>
+    </>
   )
 }
 function BgSupport(){
@@ -100,4 +104,39 @@ function SingleSupport(){
     </div>
   );
 };
+export function SupportHeader() {
+  return (
+    <div className="relative z-20 flex flex-col items-center gap-6 text-center max-w-3xl mt-[3rem]">
+
+      <h1 className="text-white text-3xl md:text-4xl font-bold tracking-widest uppercase">
+        Razer Support Center
+      </h1>
+
+      <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+        Get expert help, product guidance, and personalized support for all your
+        Razer devices and services — anytime, anywhere.
+      </p>
+
+      <div className="flex gap-10 mt-4">
+        <SupportStat value="24/7" label="Live Support" />
+        <SupportStat value="1M+" label="Devices Supported" />
+        <SupportStat value="99%" label="Customer Satisfaction" />
+      </div>
+    </div>
+
+  );
+}
+function SupportStat({ value, label }) {
+  return (
+    <div className="flex flex-col items-center">
+      <span className="text-emerald-500 text-2xl font-bold tracking-wide">
+        {value}
+      </span>
+      <span className="text-gray-400 text-xs uppercase tracking-widest">
+        {label}
+      </span>
+    </div>
+  );
+}
+
 export default SupportCpt

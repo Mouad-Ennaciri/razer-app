@@ -10,7 +10,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-black text-gray-400 px-6 lg:px-16 pt-16">
+    <footer className="bg-[#1b1b1b] text-gray-400 px-6 lg:px-16 pt-16">
       {/* TOP GRID */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10 pb-16 border-b border-white/10">
 

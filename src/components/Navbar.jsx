@@ -35,12 +35,12 @@ function NavLinks() {
       >
         Products
       </Link>
-      <Link
+      {/* <Link
         to="/features"
         className="hover:text-[#15ec15] hover:scale-[1.2] duration-300"
       >
         Features
-      </Link>
+      </Link> */}
       <Link
         to="/support"
         className="hover:text-[#15ec15] hover:scale-[1.2] duration-300"
