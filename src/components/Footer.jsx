@@ -104,7 +104,7 @@ function Footer() {
         </div>
 
         <div className="text-white cursor-pointer hover:text-green-500 transition">
-          United States | Change Location →
+          Morocco | Ouarzazate
         </div>
       </div>
     </footer>
