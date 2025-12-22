@@ -1,5 +1,5 @@
 import React from 'react'
-import bgSupport from '../../assets/images/razer-bg-support.webp';
+import bgSupport from '../../../public/images/razer-img/razer-bg-support.webp';
 import {RiSearchLine, RiUserLine} from "@remixicon/react";
 import {
   RiShieldCheckLine,
