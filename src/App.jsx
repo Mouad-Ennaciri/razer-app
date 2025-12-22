@@ -19,6 +19,8 @@ function App() {
   const [closed, setClosed] = useState(false);
   return (
     <div className="overflow-hidden">
+      <ScrollToTop/>
+      <ToastHost/>
       <Navbar onSetClosed={setClosed}/>
       <ThreeDSignIn className={`z-100`} closed={closed} onSetClosed={setClosed}/>
       <Routes>
