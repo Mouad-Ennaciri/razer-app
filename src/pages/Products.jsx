@@ -14,9 +14,8 @@ export default function Products() {
       className="min-h-screen px-20 py-16 bg-black bg-top bg-no-repeat bg-cover"
       style={{ backgroundImage: "url('/images/products-bg.png')" }}
     >
-      <h1 className="mb-6 text-4xl font-bold text-center text-white">
-        Featured <span className="text-lime-500">Products</span>
-      </h1>
+    
+      <HeadingH1 feature='Featured' typeFeature='products'/>
 
       <CategoryTabs active={activeCategory} onChange={setActiveCategory} />
 
@@ -33,4 +32,9 @@ export default function Products() {
       </div>
     </section>
   );
+}
+export function HeadingH1({feature,typeFeature}){
+  return   <h1 className="mb-6 text-4xl font-bold text-center text-white">
+        {feature} <span className="text-lime-500">{typeFeature}</span>
+      </h1>
 }

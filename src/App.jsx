@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import gsap from "gsap";
+import { ScrollTrigger,SplitText } from "gsap/all";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -14,6 +16,9 @@ import Checkout from "./pages/Checkout";
 import Success from "./pages/Success";
 import ToastHost from "./components/ToastHost";
 import ScrollToTop from './components/ScrollToTop';
+import Footer from "./components/Footer";
+
+gsap.registerPlugin(ScrollTrigger,SplitText);
 
 function App() {
   const [closed, setClosed] = useState(false);
@@ -39,7 +44,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/success" element={<Success />} />
       </Routes>
-     
+     <Footer/>
     </div>
   );
 }

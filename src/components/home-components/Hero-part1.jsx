@@ -1,5 +1,5 @@
-import person from "../../assets/images/person-nbg.png";
-import cirled from "../../assets/images/razer-controller.png";
+import person from "../../../public/images/razer-img/person-nbg.png";
+import cirled from "../../../public/images/razer-img/razer-controller.png";
 import Slider from "../../Slider.jsx";
 // import headphonesGray from "../assets/images/razer-headphones-gray.png";
 import { RiArrowRightSLine, RiArrowLeftSLine } from "@remixicon/react";

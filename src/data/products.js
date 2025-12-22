@@ -189,3 +189,41 @@ export const products = [
     image: "/images/razer-raiju-mobile-controller.png",
   },
 ];
+export const testimonials = [
+  {
+    id: 1,
+    name: "Lionel Messi",
+    comment: "Really this could not be much improved than this. That's the top notch support care and concern making us feel home. Thanks to Razer family on behalf of everybody and every user !!!!!!",
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: "Cristiano Ronaldo",
+    comment: "Exceptional product quality and customer service. My gaming experience has been transformed since switching to Razer products.",
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: "Alexis Sanches",
+    comment: "The build quality is outstanding. Razer's attention to detail truly sets them apart from other brands in the market.",
+    rating: 4,
+  },
+  {
+    id: 4,
+    name: "Achraf Hakimi",
+    comment: "Customer support was incredibly helpful when I had an issue. They resolved it quickly and professionally.",
+    rating: 5,
+  },
+  {
+    id: 5,
+    name: "Elka3bi Sizo",
+    comment: "Best gaming peripherals I've ever owned. The performance and durability are worth every penny.",
+    rating: 5,
+  },
+  {
+    id: 6,
+    name: "Coach Aymane",
+    comment: "DRARI LMOHIM , HACKDA LIK 3LEH FCHKL GHDDA INCHALLAH",
+    rating: 4,
+  },
+];
